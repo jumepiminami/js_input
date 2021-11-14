@@ -1,8 +1,8 @@
 // input要素オブジェクト
-const input = document.getElementById("example-id");
+const input = document.getElementById("input");
 // 値を埋め込む先
-const currentLength = document.getElementById("current-length");
+const length = document.getElementById("length");
 
 input.addEventListener('input', (event) => {
-  currentLength.innerText = event.target.value.length;
+  length.innerText = event.target.value.length;
 });
